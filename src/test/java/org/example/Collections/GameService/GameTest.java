@@ -74,6 +74,7 @@ public class GameTest {
 
         Assertions.assertThrows(NotRegisteredException.class, () -> game.round("Petya", "Ilya"));
     }
+
     @Test
 
     public void TestWhenPlayer2NotExist() {
